@@ -1,0 +1,62 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%), url("https://itep.sfo2.digitaloceanspaces.com/Netflix-blog-cover.jpg");
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+
+
+  height: 300px;
+  width: 350px;
+  color: black;
+  border-radius: 10px;
+}
+
+.loginInput {
+  margin-top: 55px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 25px;
+  padding: 10px 20px;
+}
+
+.passwordInput {
+  margin-top: 45px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 25px;
+  padding: 10px 20px;
+}
+
+.loginButton {
+  margin-top: 85px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+}
+
+.loginButton {
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}

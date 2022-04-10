@@ -1,0 +1,124 @@
+.user {
+  flex: 4;
+}
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.userAddButton {
+  border: none;
+  background-color: rgb(104, 104, 114);
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+.userShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 1px 2px 12px 4px rgba(0, 0, 0, 0.27);
+  box-shadow: 1px 2px 12px 4px rgba(0, 0, 0, 0.27);
+  margin-right: 20px;
+}
+.userUpdate {
+  flex: 2;
+  -webkit-box-shadow: 1px 2px 12px 4px rgba(0, 0, 0, 0.27);
+  box-shadow: 1px 2px 12px 4px rgba(0, 0, 0, 0.27);
+  padding: 20px;
+}
+.userTopImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.userShowUserName {
+  font-weight: 600;
+}
+.userShowUserTitle {
+  font-weight: 300;
+}
+.userShowBottom {
+  margin-top: 20px;
+}
+.userShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: lightcoral;
+}
+.userShowInfo {
+  align-items: center;
+  display: flex;
+  margin: 10px 20px;
+  color: rgb(77, 58, 64);
+}
+.userShowIcon {
+  font-size: 16px !important;
+}
+.userUpdateTitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+.userUpdateImg {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.publishIcon {
+  cursor: pointer;
+}
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.userUpdateItem > label {
+  font-size: 15px;
+  font-weight: 600;
+}
+.userUpdateItem > input {
+  border: none;
+  border-bottom: 1px solid lightblue;
+  width: 250px;
+}
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userUpdateButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+}

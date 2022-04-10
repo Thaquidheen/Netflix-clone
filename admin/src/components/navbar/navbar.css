@@ -1,0 +1,64 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbarWrapper {
+  height: 100%;
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: bold;
+  font-size: 40px;
+  color: chocolate;
+}
+.navbarRight {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+.iconNavbarContainer {
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+  color: rgb(53, 52, 49);
+}
+.badge {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(255, 4, 4);
+  border-radius: 60%;
+  font-size: 10px;
+  color: white;
+}
+.imageAvatar {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.logoutButton {
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}

@@ -1,0 +1,136 @@
+.productUpdate {
+  flex: 4;
+}
+.productTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+.productTitle {
+  font-size: 30px;
+  font-weight: 800;
+}
+.productTitleCreate {
+  border: none;
+  color: white;
+  background-color: green;
+  padding: 7px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 80px;
+  font-weight: 600;
+}
+.productTop {
+  display: flex;
+}
+.productTopLeft {
+  flex: 1;
+}
+.productTopRight {
+  flex: 1;
+  -webkit-box-shadow: 1px 2px 12px 4px rgba(0, 0, 0, 0.27);
+  box-shadow: 1px 2px 12px 4px rgba(0, 0, 0, 0.27);
+  padding: 20px;
+  margin: 20px;
+}
+.productInfoImage {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+.productInfoBottom {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.productInfoItem {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.productInfoName {
+  font-size: 19px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.productInfoId {
+  font-size: 14px;
+  font-weight: 600;
+}
+.productInfoValue {
+  font-weight: 300;
+}
+.productBottom {
+  flex: 1;
+  -webkit-box-shadow: 1px 2px 12px 4px rgba(0, 0, 0, 0.27);
+  box-shadow: 1px 2px 12px 4px rgba(0, 0, 0, 0.27);
+  padding: 20px;
+  margin: 20px;
+}
+.productUploadImg {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+.prosuctButton {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.publishIcon {
+  cursor: pointer;
+}
+
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+.productFormLeft > label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.productFormLeft > input {
+  border: 1px solid lightcoral;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 250px;
+  height: 40px;
+}
+.select {
+  margin-top: 10px;
+  border: 1px solid lightcoral;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  cursor: pointer;
+}
+.productFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.productUpload {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.productInfoValue {
+  margin-left: 20px;
+}
